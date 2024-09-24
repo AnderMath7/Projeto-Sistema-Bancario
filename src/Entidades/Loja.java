@@ -4,18 +4,25 @@ import java.util.ArrayList;
 
 public class Loja {
 	private ArrayList<Funcionario> funcionarios = new ArrayList<>();
-	private int id = 0;
-	Loja(int id){
-		this.id = id;
+	private Conta conta = new Conta();
+	Loja(){
+		
 	}
-	public int getId() {
-		return id;
-	}
+	
 	public ArrayList<Funcionario> getFuncionarios() {
 		return funcionarios;
 	}
 	public void adicionaFuncionarios(Funcionario funcionario) {
 		this.funcionarios.add(funcionario);
 	}
+
+	public Conta getConta() {
+		return conta;
+	}
+
+	public void setConta(Conta conta) {
+		this.conta = conta;
+	}
+	
 	
 }
