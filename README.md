@@ -19,14 +19,12 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Sumário</summary>
   <ol>
     <li>
-      <a href="#Sobre o Projeto: 📁">Sobre o Projeto</a>
+      <a href="#sobre-o-projeto-">Sobre o Projeto</a>
       <ul>
         <li><a href="#built-with">Desenvolvido com:</a></li>
       </ul>
