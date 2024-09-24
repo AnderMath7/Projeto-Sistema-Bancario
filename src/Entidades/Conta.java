@@ -4,7 +4,6 @@ public class Conta {
 	private double saldo = 0;
 	
 	Conta(){
-		
 	}
 	public double getSaldo() {
 		return saldo;
