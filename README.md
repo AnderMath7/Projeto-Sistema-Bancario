@@ -26,23 +26,21 @@
     <li>
       <a href="#sobre-o-projeto-">Sobre o Projeto</a>
       <ul>
-        <li><a href="#desenvolvido-com:-">Desenvolvido com:</a></li>
+        <li><a href="#desenvolvido-com">Desenvolvido com:</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Configurando Projeto Localmente</a>
+      <a href="#configurando-projeto-localmente">Configurando Projeto Localmente</a>
       <ul>
-        <li><a href="#prerequisites">Pré-requisitos</a></li>
-        <li><a href="#installation">Instalação</a></li>
+        <li><a href="#pré-requisitos">Pré-requisitos</a></li>
+        <li><a href="#instalação">Instalação</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Uso</a></li>
-    <li><a href="#contributing">Criado por:</a></li>
-    <li><a href="#license">Licença</a></li>
+    <li><a href="#uso">Uso</a></li>
+    <li><a href="#criado-por">Criado por:</a></li>
+    <li><a href="#licença">Licença</a></li>
   </ol>
 </details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## Sobre o Projeto: 📁
