@@ -26,7 +26,7 @@
     <li>
       <a href="#sobre-o-projeto-">Sobre o Projeto</a>
       <ul>
-        <li><a href="#built-with">Desenvolvido com:</a></li>
+        <li><a href="#desenvolvido-com:-">Desenvolvido com:</a></li>
       </ul>
     </li>
     <li>
