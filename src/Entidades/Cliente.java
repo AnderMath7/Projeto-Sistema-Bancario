@@ -16,6 +16,11 @@ public class Cliente extends Thread{
 		return id;
 	}
 
-	
+	public double transferencia() {
+		 Random valorAleatorio = new Random();
+	     double valorCompra = valorAleatorio.nextInt(301) + 200;
+	     conta.setSaldo(conta.getSaldo() - valorCompra);
+	     return valorCompra;
+	}
 	
 }
