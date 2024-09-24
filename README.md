@@ -127,7 +127,7 @@ Esse projeto serve para estudo do uso de Threads e um dos exemplos de como elas 
 
 ### Criado por:
 
-<img src="https://avatars.githubusercontent.com/u/112136979?v=4" width=115><br><sub> Matheus Anderson </sub>
+|[<img src="https://avatars.githubusercontent.com/u/112136979?v=4" width=115><br><sub> Matheus Anderson </sub>](https://github.com/AnderMath7)|
 | :---: |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
