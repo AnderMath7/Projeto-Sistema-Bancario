@@ -4,13 +4,13 @@ public class Banco {
 	public static void main(String[] args) {
 		Loja sansung = new Loja("Sansung");
 		Loja americanas = new Loja("Americanas");
-		Funcionario matheus = new Funcionario();
+		Funcionario matheus = new Funcionario("Matheus");
 		sansung.adicionaFuncionarios(matheus);
-		Funcionario raissa = new Funcionario();
+		Funcionario raissa = new Funcionario("Raissa");
 		sansung.adicionaFuncionarios(raissa);
-		Funcionario arthur = new Funcionario();
+		Funcionario arthur = new Funcionario("Arthur");
 		americanas.adicionaFuncionarios(arthur);
-		Funcionario caio = new Funcionario();
+		Funcionario caio = new Funcionario("Caio");
 		americanas.adicionaFuncionarios(caio);
 		int numClientes = 10;
 		double saldoInicialClientes = 2000;
@@ -38,6 +38,7 @@ public class Banco {
 			for(int j = 0; j < clientes[i].getTansferencias().length; j++) {
 				if(j < clientes[i].getTansferencias().length/2) {
 					sansung.receberTransferencia(clientes[i].getTansferencia(j));
+					
 					System.out.println("Transferiu R$ " + clientes[i].getTansferencia(j) + " para " + sansung.getNome());
 				}else {
 					americanas.receberTransferencia(clientes[i].getTansferencia(j));
