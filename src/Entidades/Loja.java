@@ -3,13 +3,13 @@ package Entidades;
 import java.util.ArrayList;
 
 public class Loja {
-	private int codigoLoja = 01;
 	private ArrayList<Funcionario> funcionarios = new ArrayList<>();
-	Loja(){
-		
+	private int id = 0;
+	Loja(int id){
+		this.id = id;
 	}
-	public int getCodigoLoja() {
-		return codigoLoja;
+	public int getId() {
+		return id;
 	}
 	public ArrayList<Funcionario> getFuncionarios() {
 		return funcionarios;

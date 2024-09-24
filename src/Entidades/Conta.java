@@ -6,11 +6,7 @@ public class Conta {
 	
 	/* ORGANIZAÇÃO DOS NÚMEROS DE CONTA
 	primeira parte de numero da conta:
-	 * 01 --> Conta loja
-	 * 02 --> conta funcionario
-	 * 03 --> conta cliente
-	Segunda parte:
-	 *digito da entidade ex "01 - primeira loja cadastrada" "02 - segunda loja cadastrada"
+	 *ID da entidade ex "01 - primeira loja cadastrada" "02 - segunda loja cadastrada"
 	 Terceira parte:
 	 	*Número da conta caso a loja um tenha mais de conta a terceira parte da segunda conta será 02...
 	 */
