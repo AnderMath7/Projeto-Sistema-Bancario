@@ -15,14 +15,9 @@ public class Loja {
 	public void adicionaFuncionarios(Funcionario funcionario) {
 		this.funcionarios.add(funcionario);
 	}
-
-	public Conta getConta() {
-		return conta;
-	}
-
-	public void setConta(Conta conta) {
-		this.conta = conta;
-	}
 	
+	public void receberTransferencia(double valor) {
+		conta.setSaldo(conta.getSaldo() + valor);
+	}
 	
 }
