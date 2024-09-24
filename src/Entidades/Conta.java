@@ -1,5 +1,6 @@
 package Entidades;
 
+
 public class Conta {
 	private double saldo = 0;
 	
@@ -11,5 +12,6 @@ public class Conta {
 	public void setSaldo(double saldo) {
 		this.saldo = saldo;
 	}
+
 	
 }

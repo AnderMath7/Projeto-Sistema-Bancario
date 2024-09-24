@@ -13,9 +13,7 @@ public class Cliente extends Thread{
 	
 	public void run() {
 		Thread.currentThread().setName("cliente-" + numCliente);
-		//System.out.println(Thread.currentThread().getName() + " Saldo Inicial: " + conta.getSaldo());
 		transferencia();
-		//System.out.println(Thread.currentThread().getName() + " Saldo: " + conta.getSaldo());
 	}
 	public long numCliente() {
 		return numCliente;
@@ -26,7 +24,6 @@ public class Cliente extends Thread{
 			Random valorAleatorio = new Random();
 		    double valorCompra = valorAleatorio.nextInt(301) + 200;
 		    conta.setSaldo(conta.getSaldo() - valorCompra);
-		   //System.out.println(Thread.currentThread().getName()+" transferencia: R$ "+valorCompra);
 		    transferencias[i] = valorCompra;
 		}
 	}
