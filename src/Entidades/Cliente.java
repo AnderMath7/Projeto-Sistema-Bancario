@@ -13,7 +13,7 @@ public class Cliente extends Thread{
 	
 	public void run() {
 		Thread.currentThread().setName("cliente-" + numCliente);
-		System.out.println(Thread.currentThread().getName() + " Saldo Inicial: " + conta.getSaldo());
+		//System.out.println(Thread.currentThread().getName() + " Saldo Inicial: " + conta.getSaldo());
 		transferencia();
 		//System.out.println(Thread.currentThread().getName() + " Saldo: " + conta.getSaldo());
 	}

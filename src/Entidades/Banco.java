@@ -32,29 +32,21 @@ public class Banco {
 		}
 		
 		System.out.print("\n");
-		double tiraSaldo = 0;
 		for(int i = 0; i < numClientes; i++) {
+			System.out.println(clientes[i].getName() + ":");
+			System.out.println("Saldo inicial: R$ " + saldoInicialClientes);
 			for(int j = 0; j < clientes[i].getTansferencias().length; j++) {
-				tiraSaldo = tiraSaldo + clientes[i].getTansferencia(j);
 				if(j < clientes[i].getTansferencias().length/2) {
 					sansung.receberTransferencia(clientes[i].getTansferencia(j));
-					System.out.println(clientes[i].getName() + " transferiu R$ " + clientes[i].getTansferencia(j) + " para " +
-					sansung.getNome());
-					System.out.println(clientes[i].getName() + " novo saldo: R$ " + (saldoInicialClientes - tiraSaldo));
-					System.out.println(sansung.getNome() + " novo saldo: R$ " + sansung.lerSaldo() + "\n");
+					System.out.println("Transferiu R$ " + clientes[i].getTansferencia(j) + " para " + sansung.getNome());
 				}else {
 					americanas.receberTransferencia(clientes[i].getTansferencia(j));
-					System.out.println(clientes[i].getName() + " transferiu R$ " + clientes[i].getTansferencia(j) + " para " +
-							americanas.getNome());
-					System.out.println(clientes[i].getName() + " novo saldo: R$ " + (saldoInicialClientes - tiraSaldo));
-					System.out.println(americanas.getNome() + " novo saldo: R$ " + americanas.lerSaldo() + "\n");
+					sansung.receberTransferencia(clientes[i].getTansferencia(j));
+					System.out.println("Transferiu R$ " + clientes[i].getTansferencia(j) + " para " + americanas.getNome());
 				}
 			}
-			tiraSaldo = 0;
+			System.out.println("Saldo final: R$ " + clientes[i].lerSaldo() + "\n");
 		}
-		System.out.println(sansung.lerSaldo());
-		System.out.println(americanas.lerSaldo());
-		System.out.println(sansung.lerSaldo()+americanas.lerSaldo());
 	}
 	
 }
